@@ -144,12 +144,12 @@
 <section class="hero teaser">
   <div class="container is-max-desktop">
     <div class="hero-body">
-      <img src="./static/images/TODO.png"
+      <img src="./static/images/solution.pdf"
         class="center-image"
         alt="TODO: alt text"/>
       <h2 class="subtitle has-text-centered">
         <br/>
-        TODO: headline caption
+        A solution of CMDTSP in Manhattan: salesmen start from depots to collaboratively visit all cities and always keep their energy above zero.
       </h2>
     </div>
   </div>
@@ -158,7 +158,7 @@
 <section class="section">
   <div class="container is-max-desktop">
     <!-- Paper video. -->
-    <div class="columns is-centered has-text-centered">
+<!--     <div class="columns is-centered has-text-centered">
       <div class="column is-four-fifths">
         <h2 class="title is-3">Video</h2>
         <div class="publication-video">
@@ -166,7 +166,7 @@
                   frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
         </div>
       </div>
-    </div>
+    </div> -->
     <!--/ Paper video. -->
 
     <!-- Abstract. -->
@@ -175,11 +175,12 @@
         <h2 class="title is-3">Abstract</h2>
         <div class="content has-text-justified">
           <p>
-            TODO: paragraph 1
+            The Multiple Depot Traveling salesman Problem (MDTSP) is a variant of the well known NP-hard Traveling Salesman Problem (TSP) with more than one salesmen to collaboratively visit all destinations, which widely encounters in task or mission planning in multi-agent robotic systems. Traditional MDTSP does not consider constraints such as limited battery level or inter-agent conflicts that are widely seen in practical problem, leading to the high risk of generating infeasible or unsafe solution in practice. In this work, we incorporate realistic constraints on energy and resource consumption into MDTSP to form the Constrained MDTSP (CMDTSP). We design a novel hierarchical framework to solve such CMDTSP with provide high-quality solution and low computational complexity, addressing the problem of lacking good heuristics when solving CMDTSP.
+The framework decomposes a given large CMDTSP problem into manageable sub-problems, each handled by a salesman individually via an existing solver for Traveling Salesman Problem (TSP) and heuristic search to generate tours. The proposed solutions are then aggregated and processed through a relatively small Mixed-Integer Linear Program (MILP) to form a feasible solution that meets the constraints. Compared with exact method, We reduce the number of real variables in MILP from forth order of cities to linear and the number of integer variables from quadratic to linear. We demonstrate the advantages of our framework on solution quality and running time over existing methods by experiments on both real road maps as well as synthetic datasets. Our framework gives a mean optimality gap 12.48\% on small dataset, and a 5.22\%$\sim$14.84\% solution quality increase with more than 79.8x speedup over the best baseline on large dataset where exact method times out.
           </p>
-          <p>
+<!--           <p>
             TODO: paragraph 2
-          </p>
+          </p> -->
         </div>
       </div>
     </div>
@@ -194,36 +195,36 @@
     <div class="columns is-centered">
 
       <!-- TODO: Main point 1 -->
-      <div class="column">
+<!--       <div class="column">
         <div class="content">
           <h2 class="title is-3">TODO: main point 1</h2>
           <img src="./static/images/TODO.png"
             class="center-image simulation-image"
             alt="TODO: alt text"/>
         </div>
-      </div>
+      </div> -->
       <!--/ TODO: Main point 1 -->
 
       <!-- TODO: Main point 2 -->
-      <div class="column">
+<!--       <div class="column">
         <div class="content">
           <h2 class="title is-3">TODO: main point 2</h2>
           <img src="./static/images/TODO.png"
             class="center-image simulation-image"
             alt="TODO: alt text"/>
         </div>
-      </div>
+      </div> -->
       <!--/ TODO: Main point 2 -->
 
       <!-- TODO: Main point 3 -->
-      <div class="column">
+<!--       <div class="column">
         <div class="content">
           <h2 class="title is-3">TODO: main point 3</h2>
           <img src="./static/images/TODO.png"
             class="center-image simulation-image"
             alt="TODO: alt text"/>
         </div>
-      </div>
+      </div> -->
       <!--/ TODO: Main point 3 -->
 
 
